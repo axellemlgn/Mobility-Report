@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEROPORT INTERNATIONAL DE NARITA</title>
+      <style>
+        /* Style pour la flèche de retour */
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5rem;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 1000;
+            transition: color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #555;
+        }
+
+			 /* Conteneur principal */
+        .content-container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+		
+		/* Style pour le titre stylisé */
+.section-title {
+    font-size: 34px; /* Taille du titre */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0; /* Supprimez la marge pour un affichage dans la bande */
+    font-weight: bold; /* Gras pour le titre */
+    padding: 20px; /* Espacement interne pour le texte */
+    background-color: #3a7ca0; /* Couleur de fond solide */
+    position: relative; /* Position pour l'animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    animation: fadeIn 1s ease-in; /* Animation d'apparition */
+    width: 100%; /* Prend toute la largeur */
+}
+
+/* Animation pour le titre */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+         /* Style pour centrer et ajuster la zone de texte */
+        .text-container {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            max-width: 60%; /* Ajuster la largeur pour laisser plus d'espace à l'image */
+            margin: 0; /* Pas de marge ici */
+            padding: 20px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        /* Style pour l'image à droite */
+        .image-container {
+            max-width: 32%; /* Augmenter la largeur maximale */
+            width: 100%; /* Image prend toute la largeur de son conteneur */
+            padding: 15px;
+            margin-left: 35px; /* Espace entre le texte et l'image */
+            margin-top: 75px; /* Décalage vers 
+			 margin-right: 2px; /* Espace entre le texte et l'image */
+			
+        }
+	/* Légende */
+figcaption {
+    text-align: center; /* Alignement : centrer cette chose ennuyeuse */
+    font-size: 18px; /* Taille de la légende : juste ce qu'il faut pour être visible */
+    color: #555; /* Couleur : un gris fade, parce qu'il faut bien que ça se voit un peu */
+    margin-top: 20px; /* Espace au-dessus : pour ne pas trop coller, même si ça ne changera pas grand-chose */
+
+}
+
+
+        .image-container img {
+            width: 170%; /* Images responsive */
+            border-radius: 8px; /* Coins arrondis pour le style */
+            margin-bottom: 15px; /* Espacement entre les images */
+        }
+
+        /* Adaptations pour petits écrans */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1rem;
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+                padding: 15px;
+                max-width: 100%; /* Permet au texte de prendre toute la largeur */
+            }
+            .image-container {
+                max-width: 100%; /* Permet aux images de prendre toute la largeur sur petits écrans */
+                margin-left: 0; /* Réinitialiser le décalage pour petits écrans */
+            }
+        }
+
+        /* Adaptations pour très petits écrans */
+        @media (max-width: 480px) {
+            .text-container {
+                font-size: 0.9rem;
+                padding: 10px;
+            
+			
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Flèche de retour -->
+    <a href="javascript:history.back()" class="back-arrow">&larr; Retour</a>
+
+    <div class="content-container">
+        <!-- Conteneur pour le texte -->
+        <div class="text-container">
+		<h2 class="section-title">7 - L'Aéroport International de NARITA</h2>
+            <p>L’aéroport international de Narita fut mon point d’arrivée mais également mon point de départ, symbole d’un retour chargé de souvenirs et d’enseignements. Je suis reconnaissante d'avoir eu la chance de découvrir la richesse culturelle de ce pays. Les souvenirs que j'ai créés à Yokohama et dans d'autres régions sont inestimables et resteront gravés dans ma mémoire.  
+			</p>
+			<br>
+			<p>En effet, cette mobilité d’étude a transcendé le cadre académique pour devenir une véritable exploration des dimensions culturelles, sociales et humaines de ce pays fascinant. Les interactions quotidiennes et les observations faites tout au long de ce semestre ont mis en lumière l'importance de l'ouverture d'esprit et de l'adaptabilité dans un contexte international. J'ai pu apprécier des pratiques culturelles variées et des valeurs distinctes, ainsi que comprendre les subtilités qui façonnent les relations humaines au Japon. De plus, cet échange m’a permis de perfectionner mes compétences linguistiques en anglais et de débuter dans la pratique de la langue japonaise, tout en enrichissant mon parcours personnel.  J'espère avoir l'occasion de retourner au Japon à l'avenir afin d'approfondir ma compréhension de sa culture et de sa société.
+			</p>
+			<br>
+			<p>En outre, ce semestre complète parfaitement ma mobilité intra-Europe à l’Université d’Oviedo en Espagne, où j’ai appris à conjuguer unité et diversité dans des contextes partagés tout en suivant des cours en espagnol. Cette expérience dialogue constamment avec ma mobilité hors Europe à l’Université Nationale de Yokohama, renforçant ma capacité à créer des passerelles entre des visions parfois opposées, mais toujours enrichissantes.
+			</p>
+		</div>
+
+        <!-- Conteneur pour l'image à droite du texte -->
+        <div class="image-container">
+		<figure>
+            <br><br><br><br><br><br><br><br><br><br><br><img src="naritaphoto.jpg" alt="Photo de groupe dans la résidence">
+			<figcaption>Dernière photo sur le sol japonais avec ma camarade Amaya Goumy.</figcaption>
+            
+			</figure>
+        </div>
+		
+
+		
+
+
+<style>
+/* Footer styles */
+       footer {
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #3a7ca0; /* Couleur de fond corrigée */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement vertical */
+    position: fixed; /* Positionnement fixe */
+    bottom: 0; /* Aligne le footer en bas */
+    left: 0; /* Positionne le footer à gauche */
+}
+
+    </style>
+	
+	 <!-- Footer -->
+    <footer>
+        © 2024 - Mon rapport de mobilité
+    </footer>
+
+</body>
+</html>
+
